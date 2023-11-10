@@ -1,0 +1,40 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+
+body{
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(180, 146, 102);
+}
+.cont{
+ 
+  height: 70vh;
+  width: 50vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+}
+.colorlist{
+  width: 50vw;
+  align-items: center;
+  z-index: 1;
+  display: flex;
+  gap: 5px;
+  justify-content: center;
+  
+  
+}
+.listcol{
+  width: 4vw;
+  height: 6vh;
+  
+}
+.listcol:hover{
+  cursor: pointer;
+}
